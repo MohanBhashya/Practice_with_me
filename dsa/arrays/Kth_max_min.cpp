@@ -11,13 +11,14 @@ int usingsort(int n, int arr[],int k)
 
 int usingvector()
 {
-    int num,k;
+    int num,k,x;
     vector<int>v;
     cout<<"enter num for vector: ";
     cin>>num;
     for(int i=0;i<num;i++)
     {
-        cin>>v[i];
+        cin>>x;
+        v.push_back(x);
     }
     cout<<"enter k: ";
     cin>>k;
